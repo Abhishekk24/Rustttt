@@ -1,0 +1,21 @@
+# Ignore target directory (compiled output)
+target/
+
+# Ignore Cargo.lock if it's a library (include if it's a binary project)
+# Cargo.lock
+
+# Ignore IDE/editor configs
+**/*.rs.bk
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# MacOS and Linux system files
+.DS_Store
+Thumbs.db
